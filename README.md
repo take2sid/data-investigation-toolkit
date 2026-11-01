@@ -55,10 +55,6 @@ run_investigation(source, dayfirst="auto",              # or "day first" / "mont
                   show=False)                           # True prints every report as it runs
 ```
 
-## Worked example
-
-[Medicaid GLP-1 data investigation](examples/medicaid-glp1-data-investigation.ipynb): the toolkit on 62,000 rows of CMS Medicaid drug data, showing how a first pass exposed an identifier read as a number, why suppressed cells should not be filled, and how the key search confirmed the second pass.
-
 ## Authorship
 
 Analysis design, scaling rules and testing: Siddharth Turakhia (built first as a capstone notebook). Packaging into an importable module and documentation were done with AI assistance (Claude, Anthropic), with every output reviewed and checked by the author.
